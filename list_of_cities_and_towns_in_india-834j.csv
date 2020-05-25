@@ -1,3 +1,13 @@
+The below dataset has  the details of Indian Cities with their population as per 2011 Census.
+(https://www.downloadexcelfiles.com/wo_en/download-excel-file-list-cities-towns-india#.XstsSGgzZPY)
+For the instant  project, the column 'Name of the City' is most important as it will be used for 
+fetching the Lat/Long of the respective cities. The Lat/Long ,so derived, will be further used 
+for fetching furthe details from Foursquare API like Venues etc.
+
+
+
+
+
 S.No,Name of City,State,Type,Population (2011),Population class,,,,,
 1,Mumbai,Maharashtra,Municipal Corporation / Corporation,"1,35,97,924",Class I,,,,,
 2,Delhi,Delhi,Municipal Corporation / Corporation,"1,10,07,835",Class I,,,,,
