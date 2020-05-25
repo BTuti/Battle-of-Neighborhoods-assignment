@@ -4,7 +4,7 @@ Traditionally, Indians had the lowest rate of meat consumption in the world. It 
 In this project,  we would try to find the top 10 Indian cities which have the presence of pure high-end “Vegan/Vegetarian Restaurants”.
 Description of the data:-
 We will use two datasets to arrive at a solution.
-1)	Dataset on the Indian cities (https://www.downloadexcelfiles.com/wo_en/download-excel-file-list-cities-towns-india#.XstsSGgzZPY). It has the details of the 1215 Indian cities and their population as per 2011 census.
+1)	Dataset on the Indian cities (https://www.downloadexcelfiles.com/wo_en/download-excel-file-list-cities-towns-india#.XstsSGgzZPY). It has the details of the 1214 Indian cities and their population as per 2011 census.
 2)	Foursquare API will be used to fetch other relevant information to complete the task.
 Plan:
 First of all Latitude /Longitude of Indian cities will be fetched using  'Nominatim' API. Thereafter, all the venues in the radius of 25 Km will be fetched using 'Foursquare API'. The data will be grouped using 'Groupby'method and filtered using the keyword 'Vegan/ Vegetarianism'. 
